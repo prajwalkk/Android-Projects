@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Create Contact</string>
+    <string name="welcome">Welcome Text</string>
+    <string name="btn_enter_text">Enter Text</string>
+    <string name="btn_create_contact">Create Contact</string>
+    <string name="enter_name">Enter Full-Name here</string>
+    <string name="enter_name_below">Enter Name Below</string>
+</resources>
