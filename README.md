@@ -2,7 +2,7 @@
 ### **Project 1** : 
 *Create Contact* -  Creates a contact from an external application which provides additional validations. Based on Activities and Intents
 ### **Project 2** : 
-*Movie Database Application*. Stores movie information in a custom ListViews which on click display the full information. Context Menus and overflow menus are ## implemented.
+*Movie Database Application*. Stores movie information in a custom AdapterViews which on click display the full information. Context Menus and overflow menus are ## implemented.
 ### **Project 3** :
 *App that uses Fragments and Broadcast Receivers.* Two apps, Client and Receiver. The Client opens the receiving app only if the required Permissions are granted. The Recieving app uses Fragments. The fragemtns change behavior upon the change in configuration. Portrait or Landscape.
 ### **Project 4** :
