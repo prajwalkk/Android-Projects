@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MusicServiceClient">
+
+    <LinearLayout
+        android:id="@+id/relative_parent"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/textview_show_bound"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="NOT BOUND">
+
+        </TextView>
+
+        <ToggleButton
+            android:id="@+id/button_bind"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Bind Button"
+            android:textOff="BIND"
+            android:textOn="UNBIND" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_single_sdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:baselineAligned="false"
+        android:weightSum="10">
+
+        <ImageView
+            android:id="@+id/imageview_dp"
+            android:layout_width="60dip"
+            android:layout_height="220dip"
+            android:layout_weight="3"
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:id="@+id/linear_songinfo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textview_currtrack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Song" />
+
+            <TextView
+                android:id="@+id/textview_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center"
+                android:text="artist" />
+
+            <TextView
+                android:id="@+id/textview_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="serif-monospace"
+                android:gravity="center"
+                android:text="URL" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_music"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="60" />
+
+</LinearLayout>

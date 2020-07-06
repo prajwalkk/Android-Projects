@@ -1,0 +1,149 @@
+<resources>
+    <string name="app_name">ProjectTwo</string>
+
+    <string-array name="movieList">
+        <item>1917</item>
+        <item>Get Out</item>
+        <item>Joker</item>
+        <item>La La Land</item>
+        <item>Mad Max: Fury Road</item>
+        <item>Moonlight</item>
+        <item>Parasite</item>
+        <item>Honey Boy</item>
+        <item>A Quiet Place</item>
+        <item>Spotlight</item>
+    </string-array>
+
+    <string-array name="yearlist">
+        <item>2019</item>
+        <item>2017</item>
+        <item>2019</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2019</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2015</item>
+    </string-array>
+
+    <string-array name="directorList">
+        <item>Sam Mendes</item>
+        <item>Jordan Peele</item>
+        <item>Todd Phillips</item>
+        <item>Damien Chazelle</item>
+        <item>George Miller</item>
+        <item>Barry Jenkins</item>
+        <item>Bong Joon Ho</item>
+        <item>Alma Har\'el</item>
+        <item>John Krasinski</item>
+        <item>Tom McCarthy</item>
+    </string-array>
+
+    <string-array name="movieLinks">
+        <item>https://www.imdb.com/title/tt8579674/</item>
+        <item>https://www.imdb.com/title/tt5052448/</item>
+        <item>https://www.imdb.com/title/tt7286456/</item>
+        <item>https://www.imdb.com/title/tt3783958/</item>
+        <item>https://www.imdb.com/title/tt1392190/</item>
+        <item>https://www.imdb.com/title/tt4975722/</item>
+        <item>https://www.imdb.com/title/tt6751668/</item>
+        <item>https://www.imdb.com/title/tt8151874/</item>
+        <item>https://www.imdb.com/title/tt6644200/</item>
+        <item>https://www.imdb.com/title/tt1895587/</item>
+    </string-array>
+
+    <string-array name="trailerLinks">
+        <item>https://www.youtube.com/watch?v=gZjQROMAh_s</item>
+        <item>https://www.youtube.com/watch?v=xnkgiINreIk</item>
+        <item>https://www.youtube.com/watch?v=t433PEQGErc</item>
+        <item>https://www.youtube.com/watch?v=lu4RHvouJH8</item>
+        <item>https://www.youtube.com/watch?v=hEJnMQG9ev8</item>
+        <item>https://www.youtube.com/watch?v=9NJj12tJzqc</item>
+        <item>https://www.youtube.com/watch?v=5xH0HfJHsaY</item>
+        <item>https://www.youtube.com/watch?v=5RR8WTQzwSk</item>
+        <item>https://www.youtube.com/watch?v=WR7cc5t7tv8</item>
+        <item>https://www.youtube.com/watch?v=918acvj7L1Y</item>
+    </string-array>
+
+    <string-array name="wikiLinks">
+        <item>https://en.wikipedia.org/wiki/Sam_Mendes</item>
+        <item>https://en.wikipedia.org/wiki/Jordan_Peele</item>
+        <item>https://en.wikipedia.org/wiki/Todd_Phillips</item>
+        <item>https://en.wikipedia.org/wiki/Damien_Chazelle</item>
+        <item>https://en.wikipedia.org/wiki/George_Miller_(director)</item>
+        <item>https://en.wikipedia.org/wiki/Barry_Jenkins</item>
+        <item>https://en.wikipedia.org/wiki/Bong_Joon_Ho</item>
+        <item>https://en.wikipedia.org/wiki/Alma_Har%27el</item>
+        <item>https://en.wikipedia.org/wiki/John_Krasinski</item>
+        <item>https://en.wikipedia.org/wiki/Tom_McCarthy_(director)</item>
+    </string-array>
+
+    <string-array name="rating1">
+        <item>8.5</item>
+        <item>7.7</item>
+        <item>8.6</item>
+        <item>8.0</item>
+        <item>8.1</item>
+        <item>7.4</item>
+        <item>8.6</item>
+        <item>7.4</item>
+        <item>7.5</item>
+        <item>8.1</item>
+    </string-array>
+
+    <string-array name="rating2">
+        <item>89%</item>
+        <item>98%</item>
+        <item>68%</item>
+        <item>91%</item>
+        <item>97%</item>
+        <item>98%</item>
+        <item>99%</item>
+        <item>94%</item>
+        <item>95%</item>
+        <item>97%</item>
+    </string-array>
+
+    <string-array name="cast">
+        <item>Dean-Charles Chapman, George MacKay, Daniel Mays</item>
+        <item>Daniel Kaluuya, Allison Williams, Bradley Whitford</item>
+        <item>Joaquin Phoenix, Robert De Niro, Zazie Beetz, Frances Conroy</item>
+        <item>Ryan Gosling, Emma Stone</item>
+        <item>Tom Hardy, Charlize Theron, Nicholas Hoult </item>
+        <item>Mahershala Ali, Naomie Harris, Trevante Rhodes</item>
+        <item>Kang-ho Song, Sun-kyun Lee, Yeo-jeong Jo</item>
+        <item>Shia LaBeouf, Lucas Hedges, Noah Jupe</item>
+        <item>Emily Blunt, John Krasinski, Millicent Simmonds</item>
+        <item>Mark Ruffalo, Michael Keaton, Rachel McAdams</item>
+
+    </string-array>
+
+    <string-array name="duration">
+        <item>1h 59m</item>
+        <item>1h 44m</item>
+        <item>2h 2m</item>
+        <item>2h 8m</item>
+        <item>2h</item>
+        <item>1h 51m</item>
+        <item>2h 12m</item>
+        <item>1h 34 m</item>
+        <item>1h 30m</item>
+        <item>2h 9m</item>
+    </string-array>
+
+    <string-array name="releaseDates">
+        <item>10 January 2020 (USA)</item>
+        <item>24 February 2017 (USA)</item>
+        <item>04 October 2019 (USA)</item>
+        <item>16 December 2016 (USA)</item>
+        <item>15 May 2015 (USA)</item>
+        <item>18 November 2016 (USA)</item>
+        <item>8 November 2019 (USA)</item>
+        <item>27 November 2019 (USA)</item>
+        <item>6 April 2018 (USA)</item>
+        <item>20 November 2015 (USA)</item>
+    </string-array>
+
+
+</resources>

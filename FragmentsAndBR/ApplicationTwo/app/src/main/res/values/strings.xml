@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ApplicationTwo</string>
+    <string name="welcome_message">Open the ApplicationOne. This application doesnt work by itself</string>
+
+    <string-array name="Attractions">
+        <item>Millenium Park</item>
+        <item>Willis Tower</item>
+        <item>Navy Pier</item>
+        <item>Cloud Gate</item>
+        <item>Shedd Acquarium</item>
+        <item>Skydeck Chicago</item>
+        <item>Lincoln Park Zoo</item>
+        <item>Magnificient Mile</item>
+    </string-array>
+
+    <string-array name="AttractionLinks">
+        <item>https://www.chicago.gov/city/en/depts/dca/supp_info/millennium_park.html</item>
+        <item>https://www.willistower.com/</item>
+        <item>https://navypier.org/</item>
+        <item>https://www.chicago.gov/city/en/depts/dca/supp_info/chicago_s_publicartcloudgateinmillenniumpark.html</item>
+        <item>https://www.sheddaquarium.org/</item>
+        <item>https://theskydeck.com/</item>
+        <item>https://www.lpzoo.org/</item>
+        <item>https://www.themagnificentmile.com/</item>
+    </string-array>
+
+    <string-array name="Restaurants">
+        <item>Giordano\'s</item>
+        <item>Margie\'s Candies</item>
+        <item>The Walnut Room</item>
+        <item>Lou Malnati\'s</item>
+        <item>Original Rainbow Cone</item>
+        <item>Bacci\'s Pizza</item>
+    </string-array>
+
+
+    <string-array name="RestaurantLinks">
+        <item>https://giordanos.com/</item>
+        <item>https://margiesfinecandies.com/</item>
+        <item>https://macysrestaurants.com/walnut-room/</item>
+        <item>https://www.loumalnatis.com/</item>
+        <item>https://www.rainbowcone.com/</item>
+        <item>https://www.baccipizza.com/</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ApplicationOne</string>
+    <string name="attraction_text_view">Click on the adjacent button to check the attractions in the Chicago Area</string>
+    <string name="attraction_btn_txt">Attractions</string>
+    <string name="resto_text_view">Click on the adjacent button to check the restaurants in the Chicago Area</string>
+    <string name="resto_btn_txt">Restautrants</string>
+</resources>
